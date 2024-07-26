@@ -1,0 +1,102 @@
+header{
+    height:200px;
+    background-color: rgb(111, 111, 111);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 60px;
+    transition: all;
+    transition-delay: o.12s;
+    transition-duration: 1s;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    display: flex;
+}
+aside{
+    width: 30%;
+    height: auto; 
+    background-color: rgb(204, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside nav{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+aside nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(111, 111, 111);
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-align: center;
+    transition: all;
+    transition-delay: o.12s;
+    transition-duration: 1s;
+}
+aside nav a:hover{
+    background-color: rgb(72, 72, 72);
+}
+aside nav a:active{
+    scale: 0.85;
+}
+article{
+    width: 70%;
+    height: auto;
+}
+article div{
+    padding: 30px 20px 40px 20px;
+    color: rgb(72, 72, 72);
+    transition: all;
+    transition-delay: o.12s;
+    transition-duration: 200ms;
+
+}
+article div h1{
+    font-size: 45px;
+    font-weight: 100;
+    line-height: 0;
+    color: rgb(72, 72, 72);
+    transition: all;
+    transition-delay: o.12s;
+    transition-duration: 1.2s;
+}
+footer{
+    background-color: rgb(111, 111, 111);
+    margin: 0px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    stroke:  rgb(204, 202, 202);
+}
+footer ul li:hover{
+    stroke: rgb(72, 72, 72);
+    scale: 1.5;
+    padding: 0 14px;
+}
+footer li{
+    transition: all ;
+    transition-duration: 225ms;
+    transition-delay: .02s;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
