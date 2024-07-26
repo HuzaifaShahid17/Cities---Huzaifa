@@ -39,18 +39,19 @@ aside nav a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     background-color: rgb(111, 111, 111);
-    padding: 5px 15px;
+    padding: 12px 55px;
     border-radius: 50px;
     text-align: center;
     transition: all;
     transition-delay: o.12s;
     transition-duration: 1s;
+    font-size: 18px;
 }
 aside nav a:hover{
     background-color: rgb(72, 72, 72);
 }
 aside nav a:active{
-    scale: 0.85;
+    scale: 0.15;
 }
 article{
     width: 70%;
